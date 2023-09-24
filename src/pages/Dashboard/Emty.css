@@ -1,0 +1,31 @@
+ #css:hover{
+    color: rgb(56 133 123 /1);
+    background-color: white;
+}
+.active{
+    background-color:  rgb(56 133 123 /1);
+    color: white;
+}
+/* .wholePage{
+    display: grid;
+    grid-template-areas: 'sidebar rightSide';
+    grid-template-columns: 1.4fr 8fr;
+}
+.leftSide{
+    grid-area: sidebar;
+  }
+.rightSide{
+    grid-area: rightSide;
+} */
+
+.recharts-surface{
+width: 100% !important;
+}
+
+.recharts-wrapper{
+    width: 100% !important;
+}
+.recharts-tooltip-wrapper{
+    margin-top: -130px !important;
+    z-index: 999 !important;
+}
