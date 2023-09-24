@@ -175,7 +175,7 @@ export default function Settings() {
                 <h4 className='mb-4'>Email</h4>
 
                 <TextField 
-                    label="Enter Name" sx={{ marginY: 2 }}
+                    label="Enter email" sx={{ marginY: 2 }}
                     name="email"
                     value={formik.values.email}
                     onChange={formik.handleChange}
@@ -190,7 +190,7 @@ export default function Settings() {
                 <h4 className='mb-4'>Role</h4>
 
                 <TextField 
-                    label="Enter Name" sx={{ marginY: 2 }}
+                    label="Enter role" sx={{ marginY: 2 }}
                     name="role"
                     value={formik.values.role}
                     onChange={formik.handleChange}
@@ -205,7 +205,7 @@ export default function Settings() {
                 <h4 className='mb-4'>Company Name</h4>
 
                 <TextField 
-                    label="Enter Name" sx={{ marginY: 2 }}
+                    label="Enter Company Name" sx={{ marginY: 2 }}
                     name="companyName"
                     value={formik.values.companyName}
                     onChange={formik.handleChange}
